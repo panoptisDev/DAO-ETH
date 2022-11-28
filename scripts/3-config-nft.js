@@ -4,14 +4,14 @@ import { readFileSync } from "fs";
 (async () => {
   try {
     const editionDrop = await sdk.getContract(
-      "0x5dbc7b840baa9dabcbe9d2492e45d7244b54a2a0",
+      "0x69D7642Cd70DdA4aa2F28CF56B5fD3ca762c7428",
       "edition-drop"
     );
     await editionDrop.createBatch([
       {
-        name: "Leaf Village Headband",
-        description: "This NFT will give you access to NarutoDAO!",
-        image: readFileSync("scripts/assets/headband.png"),
+        name: "Books Stack",
+        description: "This NFT will give you access to BooksDAO!",
+        image: readFileSync("scripts/assets/books.png"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
