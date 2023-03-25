@@ -1,4 +1,5 @@
-# buildspace x thirdweb - Build your own DAO with just Javascript
+![alt text](https://iili.io/HNaVd0X.png)
+# buildspace x thirdweb - WhaleHarvestDAO with Javascript
 
 ### **Welcome 👋**
 To get started with this project, clone this repo and follow these commands:
