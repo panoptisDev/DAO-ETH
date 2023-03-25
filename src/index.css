@@ -4,17 +4,22 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: gray;
+  background-color: rgb(133, 46, 246);
   color: #fff;
   overflow-x: hidden;
 }
+body {
+  background-image: url("https://iili.io/SXAVpf.png");
+  background-color: #040404;
+ }
+
 #root {
   min-height: 100vh;
   display: flex;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 @media screen and (max-width: 768px) {
   h1 {

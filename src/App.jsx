@@ -23,11 +23,11 @@ const App = () => {
   );
   // Initialize our token contract
   const { contract: token } = useContract(
-    "0xcc0A01571dD1A32075F72D84DE6c32997b64bC0b",
+    "0xcc0A01571dD1A32075F72D84DE6c32997b64bC0b",// ERC20Token contract
     "token"
   );
   const { contract: vote } = useContract(
-    "0xFB2E00a6fe803149b4EFEaD9cFbC25f9f48217aF",
+    "0xFB2E00a6fe803149b4EFEaD9cFbC25f9f48217aF", // Vote contract
     "vote"
   );
   // Hook to check if the user has our NFT
@@ -171,7 +171,7 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to BooksDAO</h1>
+        <h1>Welcome to WhaleHarvestDAO</h1>
         <div className="btn-hero">
           <ConnectWallet />
         </div>
@@ -184,7 +184,7 @@ const App = () => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>BooksDAO Member Page</h1>
+        <h1>WhaleHarvestDAO Member Page</h1>
         <p>Congratulations on being a member</p>
         <div>
           <div>
@@ -340,7 +340,7 @@ const App = () => {
   // Render mint nft screen.
   return (
     <div className="mint-nft">
-      <h1>Mint your free 🍪DAO Membership NFT</h1>
+      <h1>Mint your free 🐳DAO Membership NFT</h1>
       <div className="btn-hero">
         <Web3Button
           contractAddress={editionDropAddress}
